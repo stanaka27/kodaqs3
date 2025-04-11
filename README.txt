@@ -1,0 +1,7 @@
+This dummy project is a slice of my PhD project. The data used in this dummy project, namely "landsize", "pop1", "pop2" and "pop3", are collected by the Ministry of Internal Affairs and Communications of Japan, which are then made publicly available on the website of the Statistics Bureau (<https://www.stat.go.jp/english/index.html>). "landsize" includes the sizes of each prefecture in Japan, while "pop1", "pop2" and "pop3" are about population sizes of different prefectures in the years 2005-2010, 2010-2015 and 2015-2020 respectively.
+
+I manipulated and joined those data (hereafter, population data) in order to combine it with another set of data about voting behaviour and political orientations from 2007 to 2019, collected by the Japan Electoral Studies (hereafter, JES data). JES data cannot be shared here, as the use of it requires permission from the association.
+
+The goal of the data manipulation was to match the respondents' place of residence in JES data with population density in population data, so that I can analyse the relationship between party support and urban-rural divide. Population data lists the names of each prefecture, while prefectures are coded numerically in JES data.
+
+Lastly, unlike "pop1" and "pop2", "pop3" is formatted in long-format. Hence, below you can see different data manipulation for "pop3".
