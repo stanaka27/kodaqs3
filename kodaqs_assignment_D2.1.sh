@@ -1,3 +1,12 @@
+### Setting-up
+install.packages("tidyverse")
+library(tidyverse)
+install.packages("dplyr")
+library(dplyr)
+install.packages("readxl")
+library(readxl)
+## conflicts_prefer(dplyr::filter)
+
 ### Dataframes
 #### Landsize per prefecture (landsize)
 landsize <- read_excel("data/landsize.xls")
