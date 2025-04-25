@@ -1,8 +1,9 @@
 #!/bin/bash  
 
-# Install R packages listed in requirements.txt
+# Install dependencies
 while read pkg; do
     Rscript -e "if (!requireNamespace('$pkg', quietly = TRUE)) install.packages('$pkg', repos='https://cloud.r-project.org')"
 done < requirements.txt
 
-./kodaqs_assignment_D2.1.sh
+# Run the script
+Rscript -e "rmarkdown::render('kodaqs_assignment_D2.1.Rmd')"
