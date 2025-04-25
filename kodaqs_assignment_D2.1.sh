@@ -1,3 +1,5 @@
+#!/bin/bash
+
 ### Dataframes
 #### Landsize per prefecture (landsize)
 landsize <- read_excel("data/landsize.xls")
